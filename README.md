@@ -1,6 +1,6 @@
 # Data Cleaning for Analysis
 ## Introduction
-Data cleaning is not just about making data look better, it's about ensuring accuracy, consistency, and reliability. A clean dataset is a foundation upon which we can build robust analytics, extract meaningful insights, and make informed decisions. In this project, I carried out the process of cleaning and transforming three different datasets using Power BI. I performed series of data preparation steps to ensure that the data is accurate, consistent, and ready for analysis.
+Data cleaning is not just about making data look better, it's about ensuring accuracy, consistency, and reliability. A clean dataset is a foundation upon which we can build robust analytics, extract meaningful insights, and make informed decisions. In this task, I carried out the process of cleaning and transforming three different datasets using Power BI. I performed series of data preparation steps to ensure that the data is accurate, consistent, and ready for analysis.
 ## Data Source:
 CSV FILE;
 - Employee: Containing column names **_empID_**,	**_name_**,	**_Fname_**,	**_dob_**,	**_aadhar_**,	**_city_**,	**_pincode_**, **_phone_**, **_email_**,	**_DeptID_**
