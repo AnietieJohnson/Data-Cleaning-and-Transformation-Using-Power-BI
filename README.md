@@ -40,9 +40,14 @@ DATASET BEFORE CLEANING        | DATASET AFTER CLEANING
 DATASET BEFORE CLEANING       |  DATASET AFTER CLEANING
 :-------------------------------:|:--------------------------------:
 ![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/department%20csv%20data%20set%20before%20cleaning.png) | ![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/deptid.png)
+
+## Data Integrity
+I checked column quality, column profile and column distribution
+- They help to identify and address issues like missing values, outliers, and inconsistencies, ensuring data reliability.
+- it also enhance data quality and trustworthiness for accurate insights and visualizations.
 ## Merging Data:
 USED the left outer Join to
-- merg the Employee dataset with Salary Using **_EmpID_** 
+- merged the Employee dataset with Salary Using **_EmpID_** 
 - named it Table 1
 - then I merged Table 1 and Department dataset using **_DepID_**.
 
