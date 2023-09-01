@@ -11,7 +11,7 @@ CSV FILE;
 - Identified columns, data types, and potential issues.
 ## Data Cleaning
 1. Loaded each file using **Get data Tab**, I chose _text/csv_
-2. I loaded the file into PowerQery Editor for cleaning.
+2. I loaded the file into PowerQery Editor for cleaning using Data type detection-: "Based on entire dataset" 
 ### Employee.csv
 - Corrected data types for each columns
 - Renamed column headings for consistency
