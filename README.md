@@ -14,19 +14,32 @@ CSV FILE;
 2. I loaded the file into PowerQery Editor for cleaning using Data type detection-: "Based on entire dataset" 
 ### Employee.csv
 - Corrected data types for each columns
-- Renamed column headings for consistency
+- Renamed column headings for clarity and consistency
 - Checked for missing values, duplicates and Nulls, found none.
 - Standardized the **_Date of Birth_** column that had different delimeters seperating the values
-- splitted the column to column to enable rearrgngement to suit the format on PowerBi desktop, then I was able to change the data type
+- splitted the column to column to enable rearrgngement to suit the format on PowerBi desktop, then I was able to change the data type.
+
+DATASET BEFORE CLEANING         |        DATASET AFTER CLEANING
+:-------------------------------:|:---------------------------------:
+![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/employee%20csv%20dataset%20before%20cleaning.png) | ![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/Employee%20Data%20set%20after%20cleaning.png)
 ### Salary.csv
-- Checked for missing values, found none.
-- Removed duplicate rows.
-- Converted the 'Salary' column to a numeric data type.
-- Checked for outliers, decided to keep them.
+- Corrected data types for each columns
+- Renamed column headings for Clarity and consistency
+- Checked for missing values, duplicates there were none
+- For the Nulls present I used **_Keep rows tab_** from **HOME** to keep the 100 valid rows and removed the 99 rows of nulls
+
+DATASET BEFORE CLEANING        | DATASET AFTER CLEANING
+:-------------------------------:|:------------------------------:
+![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/Salary%20CSV%20dataset%20before%20cleaning.png) | ![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/salary%20dataset%20after%20cleaning.png)
 ### Department.csv
-- Checked for missing values, found none.
-- Removed duplicate rows.
-- Renamed columns for clarity.
+- Corrected data types for each columns
+- Renamed column headings for Clarity and consistency
+- Checked for missing values, duplicates there were none
+- For the Nulls present I used **_Keep rows tab_** from **HOME** to keep 11 valid rows and removed nulls and empty cells.
+
+DATASET BEFORE CLEANING       |  DATASET AFTER CLEANING
+:-------------------------------:|:--------------------------------:
+![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/department%20csv%20data%20set%20before%20cleaning.png) | ![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/Department%20dataset%20after%20cleaning.png)
 ## Merging Data:
 - merged the Employee dataset with Salary Using **_Emp ID_**
 - named it Table 1
