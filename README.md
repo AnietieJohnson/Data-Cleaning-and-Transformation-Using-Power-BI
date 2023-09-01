@@ -51,7 +51,8 @@ USED the left outer Join to
 - Named it Table 1
 - Then I merged Table 1 and Department dataset using **_DepID_**.
 
-DATASET AFTER MERGE
+**DATASET AFTER MERGE**
 ![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/merge%20datasets%20using%20left%20outer%20join.png)
+
 ## Conclusion
 In conclusion, this task highlight data cleaning and transformation process in Power BI. The documentation outlines each step, ensuring clarity and reproducibility of the process, with a focus on data quality.
