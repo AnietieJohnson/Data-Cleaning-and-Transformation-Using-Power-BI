@@ -17,7 +17,7 @@ CSV FILE;
 - Renamed column headings for clarity and consistency
 - Checked for missing values, duplicates and Nulls, found none.
 - Standardized the **_Date of Birth_** column that had different delimeters seperating the values
-- splitted the column to column to enable rearrgngement to suit the format on PowerBi desktop, then I was able to change the data type.
+- splitted the column to suit the date format on PowerBi desktop, then I was able to change the data type.
 
 DATASET BEFORE CLEANING         |        DATASET AFTER CLEANING
 :-------------------------------:|:---------------------------------:
