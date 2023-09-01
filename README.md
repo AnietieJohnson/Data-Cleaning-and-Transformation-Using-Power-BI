@@ -39,10 +39,14 @@ DATASET BEFORE CLEANING        | DATASET AFTER CLEANING
 
 DATASET BEFORE CLEANING       |  DATASET AFTER CLEANING
 :-------------------------------:|:--------------------------------:
-![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/department%20csv%20data%20set%20before%20cleaning.png) | ![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/Department%20dataset%20after%20cleaning.png)
+![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/department%20csv%20data%20set%20before%20cleaning.png) | ![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/deptid.png)
 ## Merging Data:
-- merged the Employee dataset with Salary Using **_Emp ID_**
+USED the left outer Join to
+- merg the Employee dataset with Salary Using **_EmpID_** 
 - named it Table 1
-- then I merged Table 1 and Department dataset using appropriate **_Dept ID_**.
+- then I merged Table 1 and Department dataset using **_DepID_**.
+
+DATASET AFTER MERGE
+![](https://github.com/AnietieJohnson/Data-Cleaning-and-Transformation-Using-Power-BI/blob/main/merge%20datasets%20using%20left%20outer%20join.png)
 ## Conclusion
 In conclusion, this task highlight data cleaning and transformation process in Power BI. The documentation outlines each step, ensuring clarity and reproducibility of the process, with a focus on data quality.
