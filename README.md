@@ -34,7 +34,7 @@ DATASET BEFORE CLEANING        | DATASET AFTER CLEANING
 ### Department.csv
 - Corrected data types for each columns
 - Renamed column headings for Clarity and consistency
-- Checked for missing valuesand duplicates, there was none
+- Checked for missing values and duplicates, there was none
 - For the Nulls present I used **_Keep rows tab_** from **HOME** to keep 11 valid rows and removed nulls and empty cells.
 
 DATASET BEFORE CLEANING       |  DATASET AFTER CLEANING
